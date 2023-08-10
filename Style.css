@@ -35,10 +35,25 @@ body{
     border: 5px solid white;
 }
 
-h2{
+.neon{
     padding-top: 10px;
     margin-bottom:-3px;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: 1s;
 }
+
+.neon:hover{
+    color: #464545;
+    text-shadow: 0 0 5px #00c8ff,
+    0 0 25px #00c8ff,
+    0 0 50px #00c8ff,
+    0 0 100px #00c8ff;
+}
+
+
 
 .text{
     padding-inline: 20px;
