@@ -16,7 +16,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    margin: 15% auto;
+    margin: 80px auto;
     border-radius: 30px;
     justify-content: space-around;
 }
@@ -41,6 +41,11 @@ h2{
     padding-inline: 20px;
     text-align: center;
     font-size: small;
+    height: 120px;
+}
+
+hr{
+    border: 0.5px solid rgb(4, 107, 165);
 }
 
 .botones{
@@ -49,8 +54,6 @@ h2{
     justify-content: space-between;
 }
 
-
-
 .redessociales{
     background-color: rgb(205, 225, 237);
     border: 2px solid rgb(205, 225, 237);
@@ -58,6 +61,8 @@ h2{
     border-radius: 10px;
     width: 48px;
     margin-right: 10px;
+    margin-left: 10px;
+    
 }
 
 .telegram{
