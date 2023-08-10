@@ -72,6 +72,42 @@ h2{
     background-image: url(./Imagenes/telegramanegro.png);
 }
 
+.facebook{
+    background-image:url(./Imagenes/simbolo-de-la-aplicacion-de-facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.facebook:hover{
+    background-color: transparent;
+    border: 2px solid rgb(205, 225, 237);
+    background-image: url(./Imagenes/simbolo-de-la-aplicacion-de-facebook\ \(1\).png);
+}
+
+.instagram{
+    background-image:url(./Imagenes/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.instagram:hover{
+    background-color: transparent;
+    border: 2px solid rgb(205, 225, 237);
+    background-image: url(./Imagenes/instagram\ \(1\).png);
+}
+
+.twiter{
+    background-image:url(./Imagenes/gorjeo\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twiter:hover{
+    background-color: transparent;
+    border: 2px solid rgb(205, 225, 237);
+    background-image: url(./Imagenes/gorjeo.png);
+}
+
 .Follow{
     width: 50px;
     font-size: smaller;
