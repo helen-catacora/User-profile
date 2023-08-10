@@ -5,7 +5,8 @@ body{
     background-image: url(https://th.bing.com/th/id/R.6402f1c19dd90288c2896f823116b7ae?rik=h7g38LibU2IZEw&pid=ImgRaw&r=0);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
+    height: 100vh;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -15,8 +16,10 @@ body{
     background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
-    margin: 80px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     border-radius: 30px;
     justify-content: space-around;
 }
